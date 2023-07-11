@@ -19,7 +19,7 @@ function WeatherApp() {
   async function loadInfo(city="london"){
 
     try {
-        const request=await axios.get(`http://api.weatherapi.com/v1/current.json?aqi=no&key=c961b387f2ce46f7b74141347231107&q=${city}`)
+        const request=await axios.get(`https://api.weatherapi.com/v1/current.json?aqi=no&key=c961b387f2ce46f7b74141347231107&q=${city}`)
         const data=request.data;
         setWeather(data);
     } catch (error) {
