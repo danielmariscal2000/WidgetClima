@@ -1,0 +1,30 @@
+.nombres{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    font-size: 25px;
+    font-weight:800;
+    color:#fcdb1f;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.imgText{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+.text{
+    color: #ff9915;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+.iframe{
+    border-radius: 10px;
+}

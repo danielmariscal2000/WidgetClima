@@ -1,0 +1,19 @@
+.weatherContainer{
+    background-color:#00686c;
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+}
+.container{
+    background-color: #edecb3;
+    width: 660px;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+height: 95vh;
+border-radius: 20px;
+}
